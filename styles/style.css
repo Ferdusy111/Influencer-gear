@@ -37,7 +37,8 @@ header{
   width: 1340px;
   height: 700px;
   margin: 0 auto;
-  /* border: 2px solid blue; */
+  background-color: aqua;
+  border: 2px solid blue;
 }
 nav{
   display: flex;

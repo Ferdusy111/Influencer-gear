@@ -5,6 +5,9 @@ header{
     width: 100%;
     margin: 0 auto;
 }
+nav{
+    width: 100%;
+}
 nav ul li{
     display: none;
 }
@@ -16,9 +19,6 @@ nav ul li{
 }
 .banner-content {
     flex-direction: column-reverse;
-}
-.banner-content .banner-text{
-    max-width: 10%;
 }
 .banner-content .img {
     margin-left: 0px;  
@@ -43,13 +43,17 @@ nav ul li{
 } 
 .banner-content .banner-text .banner-title{
     text-align: center;
+    margin: 0 auto;
 }
 .banner-content .banner-text .banner-description {
     width: 95%;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
 }
  .btn{
     margin-left: 80px;
+    margin-top: 5px;
 }
 }
 
