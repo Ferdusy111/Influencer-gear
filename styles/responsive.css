@@ -1,0 +1,56 @@
+/* For small device */
+@media screen and (max-width:576px) {
+/* Responsive nav and header---------------------------------------- */
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+nav ul li{
+    display: none;
+}
+.nav-hamburger{
+    display: block;
+}
+.glass{
+    display: block;
+}
+.banner-content {
+    flex-direction: column-reverse;
+}
+.banner-content .banner-text{
+    max-width: 10%;
+}
+.banner-content .img {
+    margin-left: 0px;  
+    border: none;
+    background-image:none;
+    height: 350px;
+}
+.banner-content .img .banner-img img{
+    max-width: 90%;
+    border:none;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.banner-content .img .banner-img {
+    height: 0px;
+    margin: 0px;
+    border: none;
+}
+.banner-content .banner-text {
+    max-width: 100%;
+    margin-top: 0px;
+} 
+.banner-content .banner-text .banner-title{
+    text-align: center;
+}
+.banner-content .banner-text .banner-description {
+    width: 95%;
+    text-align: center;
+}
+ .btn{
+    margin-left: 80px;
+}
+}
+
+/* Responsive */
