@@ -214,4 +214,41 @@ hr{
   padding: 10px 40px 10px 24px; 
 }
 
-
+/*_____________________________________5TH PART___________________________ */
+.footer{
+  width:1440px ;
+  height: 350px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-text{
+  width: 262px;
+  height:200px ;
+  /* border: 2px solid white; */
+  color: white;
+}
+.footer .footer-title{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.footer .footer-description{
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 0px;
+  text-align: center;
+}
+.footer .footer-line{ 
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+.footer .footer-icon{
+  text-align: center;
+}
