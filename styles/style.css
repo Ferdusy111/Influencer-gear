@@ -37,8 +37,7 @@ header{
   width: 1340px;
   height: 700px;
   margin: 0 auto;
-  background-color: aqua;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 nav{
   display: flex;
@@ -113,3 +112,56 @@ nav ul{
 }
 
 /* ______________________________________2ND PART_______________________________ */
+/* brands-logo style------------------------------------ */
+.brands-logo{
+  width:1110px ;
+  height:110px ;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+}
+.brands-logo .logo-name{
+  display: flex;
+  justify-content: space-around;
+}
+hr{
+  color:rgba(192, 204, 218, 0.10) ;
+}
+/*________________________________3RD PART_______________________________________ */
+/* popular collection style------------------------------- */
+.popular-collection{
+  width:1047px ;
+  height:1662px ;
+  /* border: 2px solid blue; */
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.popular-collection .popular-collection-title{
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom:30px: ;
+}
+.popular-collection .gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px
+}
+.gallery .card{
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+}
+.gallery .card  img{
+  padding: 17px 15px 10px 14px;
+}
+.gallery .card .popular-text{
+  margin-left: 10px;
+}
+.gallery .card .popular-icon{
+  margin-left: 10px;
+}
+.gallery .card .popular-description{
+  margin-left: 10px;
+}
